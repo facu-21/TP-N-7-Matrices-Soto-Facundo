@@ -10,10 +10,10 @@ int main() {
 		}
 	}
 	for(j=0;j<=2;j++){
-		m[0][j]=m[0][j]*4;
+		m[0][j]=m[0][j]*4;//Condición.
 	}
 	for(i=0;i<=1;i++){
-		m[i][2]=m[i][2]*3;
+		m[i][2]=m[i][2]*3;//Condición.
 	}
 	printf("\n");
 	printf("Matriz modificada:\n");
